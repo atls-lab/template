@@ -23,7 +23,7 @@ jobs:
           !startsWith(github.event.pull_request.head.ref, 'renovate/')
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: '14'
           registry-url: 'https://npm.pkg.github.com'
@@ -89,7 +89,7 @@ jobs:
           !startsWith(github.event.pull_request.head.ref, 'renovate/')
 
       - name: Github Registry
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: '14.x'
           registry-url: 'https://npm.pkg.github.com'
