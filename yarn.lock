@@ -5882,7 +5882,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"husky@npm:6.0.0":
+"husky@npm:^6.0.0":
   version: 6.0.0
   resolution: "husky@npm:6.0.0"
   bin:
@@ -9376,16 +9376,6 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@atls/actl-cli": ^0.4.41
-    husky: 6.0.0
-    typescript: 4.2.4
-  languageName: unknown
-  linkType: soft
-
 "rsvp@npm:^4.8.4":
   version: 4.8.5
   resolution: "rsvp@npm:4.8.5"
@@ -10363,6 +10353,16 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "template@workspace:."
+  dependencies:
+    "@atls/actl-cli": ^0.4.41
+    husky: ^6.0.0
+    typescript: ^4.2.4
+  languageName: unknown
+  linkType: soft
+
 "terminal-link@npm:^2.0.0":
   version: 2.1.1
   resolution: "terminal-link@npm:2.1.1"
@@ -10764,7 +10764,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@*, typescript@4.2.4, typescript@^4.2.4":
+"typescript@*, typescript@^4.2.4":
   version: 4.2.4
   resolution: "typescript@npm:4.2.4"
   bin:
@@ -10784,7 +10784,7 @@ typescript@^3.2.4:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#builtin<compat/typescript>, typescript@patch:typescript@4.2.4#builtin<compat/typescript>, typescript@patch:typescript@^4.2.4#builtin<compat/typescript>":
+"typescript@patch:typescript@*#builtin<compat/typescript>, typescript@patch:typescript@^4.2.4#builtin<compat/typescript>":
   version: 4.2.4
   resolution: "typescript@patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"
   bin:
