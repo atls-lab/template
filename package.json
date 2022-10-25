@@ -1,7 +1,7 @@
 {
   "name": "template",
-  "license": "BSD 3-Clause",
   "private": true,
+  "license": "BSD 3-Clause",
   "resolutions": {
     "typescript": "4.4.4"
   },

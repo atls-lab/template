@@ -8,10 +8,6 @@ body:
     id: bug-description
     attributes:
       label: Описание бага
-      placeholder: '1. **@package/name@0.0.0**
-2. Затрагиваемые области
-
-**_Например_**: @package/name@0.1.47 может нарушать работу **[@package/name-next@0.2.23](github.com/org-name/repo-name/backend/name-next/service/index.ts)**'
     validations:
       required: true
   - type: textarea
@@ -19,9 +15,10 @@ body:
     attributes:
       label: Воспроизведение
       description: 'Шаги для воспроизведения бага:'
-      placeholder: '1. Идём туда-то **package/name/src/main.js:561**
-2. Выполнить команду или что-то запустить
-3. Видим то-то и то-то'
+      placeholder: |
+        1. Идём туда-то **package/name/src/main.js:561**
+        2. Выполнить команду или что-то запустить
+        3. Видим то-то и то-то
     validations:
       required: true
   - type: textarea
