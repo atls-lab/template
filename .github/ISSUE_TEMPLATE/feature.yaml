@@ -15,18 +15,19 @@ body:
     id: poc
     attributes:
       label: Расскажите как вы это себе видите
-      placeholder: 'Например:
-```typescript
-@Injectable({
-    provider: "IntlProvider"
-})
-  
-  export class IntlService {
-  getIntl(object){
-  return object.string
-}
-}
-  ```'
+      placeholder: |
+        Например:
+        ```typescript
+        @Injectable({
+          provider: "IntlProvider"
+        })
+
+        export class IntlService {
+          getIntl(object){
+            return object.string
+          }
+        }
+        ```
     validations:
       required: true
   - type: textarea
