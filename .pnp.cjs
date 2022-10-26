@@ -4736,7 +4736,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["git-up", "npm:4.0.5"],\
             ["is-ssh", "npm:1.3.3"],\
-            ["parse-url", "npm:6.0.5"]\
+            ["parse-url", "npm:8.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6650,24 +6650,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["parse-path", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/cache/parse-path-npm-5.0.0-a8fbc91b2e-e9f670559c.zip/node_modules/parse-path/",\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/parse-path-npm-7.0.0-ceda41e594-244b46523a.zip/node_modules/parse-path/",\
           "packageDependencies": [\
-            ["parse-path", "npm:5.0.0"],\
+            ["parse-path", "npm:7.0.0"],\
             ["protocols", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["parse-url", [\
-        ["npm:6.0.5", {\
-          "packageLocation": "./.yarn/cache/parse-url-npm-6.0.5-e594962900-b583800f63.zip/node_modules/parse-url/",\
+        ["npm:8.1.0", {\
+          "packageLocation": "./.yarn/cache/parse-url-npm-8.1.0-0995f15c34-b93e21ab4c.zip/node_modules/parse-url/",\
           "packageDependencies": [\
-            ["parse-url", "npm:6.0.5"],\
-            ["is-ssh", "npm:1.3.3"],\
-            ["normalize-url", "npm:6.1.0"],\
-            ["parse-path", "npm:5.0.0"],\
-            ["protocols", "npm:1.4.8"]\
+            ["parse-url", "npm:8.1.0"],\
+            ["parse-path", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
