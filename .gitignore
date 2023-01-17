@@ -46,3 +46,6 @@ dist/
 # JetBrains Files
 .idea
 *.iml
+
+# Env
+.env
