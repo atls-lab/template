@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.11.30"],\
           ["eslint", "npm:8.57.0"],\
           ["husky", "npm:9.0.11"],\
-          ["prettier", "npm:3.2.5"],\
+          ["prettier", "npm:3.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
@@ -9580,13 +9580,6 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.1.1"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:3.2.5", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.5-6859110d6a/node_modules/prettier/",\
-        "packageDependencies": [\
-          ["prettier", "npm:3.2.5"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["prettier-linter-helpers", [\
@@ -10786,7 +10779,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.11.30"],\
           ["eslint", "npm:8.57.0"],\
           ["husky", "npm:9.0.11"],\
-          ["prettier", "npm:3.2.5"],\
+          ["prettier", "npm:3.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
         "linkType": "SOFT"\
