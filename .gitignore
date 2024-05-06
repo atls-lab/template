@@ -45,7 +45,9 @@ dist/
 .next
 
 # JetBrains Files
-.idea
+.idea/*
+!.idea/fileTemplates
+!.idea/file.template.settings.xml
 *.iml
 
 # Env
