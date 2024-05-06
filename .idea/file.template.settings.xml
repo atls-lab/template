@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="CQRS handler.ts" file-name="${NAME}.${Type}-handler" reformat="true" live-template-enabled="false">
+        <template name="CQRS handler.ts.child.0.ts" file-name="${NAME}.${Type}-handler.test" reformat="true" live-template-enabled="false" />
+        <template name="CQRS handler.ts.child.1.ts" file-name="../$Type/${NAME}.${Type}" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="CQRS handler.ts.child.0.ts" file-name="${NAME}.${Type}-handler.test" reformat="true" live-template-enabled="false" />
+      <template name="CQRS handler.ts.child.1.ts" file-name="../$Type/${NAME}.${Type}" reformat="true" live-template-enabled="false" />
+      <template name="React Component Boilerplate.tsx" file-name="$NAME" reformat="true" live-template-enabled="true">
+        <template name="React Component Boilerplate.tsx.child.0.ts" file-name="index" reformat="true" live-template-enabled="false" />
+        <template name="React Component Boilerplate.tsx.child.1.tsx" file-name="${NAME}.test" reformat="true" live-template-enabled="false" />
+        <template name="React Component Boilerplate.tsx.child.2.ts" file-name="${NAME}.interfaces" reformat="true" live-template-enabled="false" />
+        <template name="React Component Boilerplate.tsx.child.3.ts" file-name="${NAME}.constants" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="React Component Boilerplate.tsx.child.0.ts" file-name="index" reformat="true" live-template-enabled="false" />
+      <template name="React Component Boilerplate.tsx.child.1.tsx" file-name="${NAME}.test" reformat="true" live-template-enabled="false" />
+      <template name="React Component Boilerplate.tsx.child.2.ts" file-name="${NAME}.interfaces" reformat="true" live-template-enabled="false" />
+      <template name="React Component Boilerplate.tsx.child.3.ts" file-name="${NAME}.constants" reformat="true" live-template-enabled="false" />
+      <template name="React Fragment Boilerplate.tsx" reformat="true" live-template-enabled="false">
+        <template name="React Fragment Boilerplate.tsx.child.0.ts" file-name="index" reformat="true" live-template-enabled="false" />
+        <template name="React Fragment Boilerplate.tsx.child.1.ts" file-name="${NAME}.constants" reformat="true" live-template-enabled="false" />
+        <template name="React Fragment Boilerplate.tsx.child.2.tsx" file-name="${NAME}.test" reformat="true" live-template-enabled="false" />
+        <template name="React Fragment Boilerplate.tsx.child.3.ts" file-name="${NAME}.interfaces" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="React Fragment Boilerplate.tsx.child.0.ts" file-name="index" reformat="true" live-template-enabled="false" />
+      <template name="React Fragment Boilerplate.tsx.child.1.ts" file-name="${NAME}.constants" reformat="true" live-template-enabled="false" />
+      <template name="React Fragment Boilerplate.tsx.child.2.tsx" file-name="${NAME}.test" reformat="true" live-template-enabled="false" />
+      <template name="React Fragment Boilerplate.tsx.child.3.ts" file-name="${NAME}.interfaces" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</project>
