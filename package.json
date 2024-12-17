@@ -4,10 +4,10 @@
   "license": "BSD 3-Clause",
   "type": "module",
   "devDependencies": {
-    "@atls/code-runtime": "1.1.0",
-    "@types/jest": "29.5.12",
-    "@types/node": "22.5.0",
-    "typescript": "5.4.2"
+    "@atls/code-runtime": "2.0.7",
+    "@types/node": "22.10.2",
+    "eslint": "9.17.0",
+    "typescript": "5.5.4"
   },
-  "packageManager": "yarn@4.4.1"
+  "packageManager": "yarn@4.5.3"
 }
