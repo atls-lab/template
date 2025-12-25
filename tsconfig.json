@@ -24,11 +24,9 @@
     "target": "es2022",
     "jsx": "react-jsx",
     "strictPropertyInitialization": false,
-    "rootDir": ".",
     "outDir": "./dist",
-    "noImplicitOverride": true,
     "skipLibCheck": true
   },
-  "include": ["project.types.d.ts", "cms/**/*", "landing/**/*"],
+  "include": ["project.types.d.ts"],
   "exclude": [".idea"]
 }
