@@ -7092,13 +7092,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.2.3":
-  version: 19.2.3
-  resolution: "react@npm:19.2.3"
-  checksum: 10/d16b7f35c0d35a56f63d9d1693819762e4abc479c57dd6310298920bed3820fcec7e17a99d44983416d8f5049143ea45b8005d3ab8324bae8973224400502b08
-  languageName: node
-  linkType: hard
-
 "readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0":
   version: 3.6.2
   resolution: "readable-stream@npm:3.6.2"
@@ -7913,7 +7906,6 @@ __metadata:
     dotenv: "npm:16.6.1"
     eslint: "npm:9.26.0"
     nx: "npm:21.4.1"
-    react: "npm:19.2.3"
     tslib: "npm:2.8.1"
     typescript: "npm:5.5.4"
   languageName: unknown
