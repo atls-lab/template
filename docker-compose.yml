@@ -1,0 +1,18 @@
+name: template
+
+volumes:
+  yarn:
+
+x-node-service: &node-service
+  image: node:22
+  working_dir: /workspace
+  env_file:
+    - .config/.env.docker
+  volumes:
+    - yarn:/.yarn/berry
+    - ./:/workspace:cached
+
+services:
+  yarn:
+    <<: *node-service
+    entrypoint: yarn install
