@@ -129,6 +129,14 @@ debug/
 # Next.js
 .next
 
+# Astro
+.astro/
+!.astro/env.d.ts
+!.astro/types.d.ts
+
+# Docker
+.docker
+
 # Nuxt.js
 .nuxt
 
